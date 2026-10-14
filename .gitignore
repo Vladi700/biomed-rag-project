@@ -1,0 +1,35 @@
+# Local environment and editor files
+.venv/
+.vscode/
+.DS_Store
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+
+# Credentials and local secrets
+.env
+.env.*
+stored_tokens
+*credentials*
+*secret*
+
+# Downloaded and generated corpus artifacts
+pmc_xml_test/
+pmc_xml_filtered/
+pmc_raw_texts/
+document_repository/
+vector_database/
+
+# Generated archives, datasets, and reports
+*.zip
+*.csv
+pmc_ids.json
+dataset_profile.json
+degenerate_report.json
+micro_test_set.json
+lfm_rag_answers.json
+lfm_rag_answers_evaluated.json
+evaluation_report.md
+
+# Local backup
+notebook_latest (2).pre-refactor.ipynb
